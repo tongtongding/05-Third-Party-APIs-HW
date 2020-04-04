@@ -26,6 +26,7 @@ $(document).ready(function () {
 
     $(".saveBtn").on("click", function () {
 
+        event.preventDefault();
         inputElement = $(this).siblings("textarea")
         var userInput = inputElement.val();
 

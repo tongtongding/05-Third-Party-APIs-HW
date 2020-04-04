@@ -33,13 +33,14 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 2px solid		#FFA500;;
+  border-bottom: 2px solid 	violet;
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #f9c5bd;
+  color: white;
+  border-top: 1px dashed #fbaf08;
 }
 
 .past {
@@ -48,12 +49,12 @@ textarea{
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #ff5e6c;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #9bc400;
   color: white;
 }
 
@@ -61,7 +62,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #f9c5bd;
   color: white;
 }
 
